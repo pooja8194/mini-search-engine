@@ -1,0 +1,4 @@
+Python is easy to learn.
+Python is used in data science and machine learning.
+Programming with Python is simple.
+Python has many libraries.

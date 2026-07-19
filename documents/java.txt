@@ -1,0 +1,4 @@
+Java is an object oriented programming language.
+Java is platform independent.
+Java supports HashMap and HashSet.
+Java is widely used for software development.
