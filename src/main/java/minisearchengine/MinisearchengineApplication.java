@@ -12,10 +12,12 @@ public class MinisearchengineApplication {
     public static void main(String[] args) {
 
         indexer = new Indexer();
+        System.out.println("Indexer object created");
 
         try {
             indexer.buildIndex("documents");
             System.out.println("Index built successfully!");
+            System.out.println("Index contains " + indexer.getIndex().size() + " words");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
