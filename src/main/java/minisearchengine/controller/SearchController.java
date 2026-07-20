@@ -16,7 +16,8 @@ public class SearchController {
     private SearchEngine engine;
 
     public SearchController() {
-        engine = new SearchEngine(MinisearchengineApplication.indexer.getIndex());
+    System.out.println("===== SearchController Loaded =====");
+    engine = new SearchEngine(MiniSearchengineApplication.indexer.getIndex());
     }
 
     @GetMapping("/search")
